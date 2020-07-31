@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Router basename={window.loaction.pathname || ''}>
+        <Router basename={window.location.pathname || ''}>
           <NavigationBar />
             <Switch>
               <Layout>
