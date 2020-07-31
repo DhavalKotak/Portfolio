@@ -14,6 +14,11 @@ const Styles = styled.div`
       color: white;
     }
   }
+  @media screen and (max-width: 572px){
+    a{
+      font-size: 0.8em;
+    }
+  }
 `;
 
 export const NavigationBar = () => (
