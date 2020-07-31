@@ -7,7 +7,6 @@ import reaction from './assets/reaction.png'
 import target from './assets/target.png'
 import bird from './assets/bird.png'
 import styled from 'styled-components'
-//import { CardGroup } from 'react-bootstrap';
 
 const Styled = styled.div`
     .card{
@@ -35,8 +34,8 @@ export const Projects = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button href="https://github.com/DhavalKotak/dhavalkotak.github.io" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                        <Button href="https://dhavalkotak.github.io" variant="outline-danger">Live Demo</Button> 
+                        <Button href="https://github.com/DhavalKotak/portfolio" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                        <Button href="https://dhavalkotak.github.io/portfolio" variant="outline-danger">Live Demo</Button> 
                     </Card.Footer>
                 </Card>
                 <Card>
