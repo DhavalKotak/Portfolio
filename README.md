@@ -1,6 +1,6 @@
 # Portfolio
 
-[Visit Here](https://dhavalkotak.githu.io/portfolio)
+[Visit Here](https://dhavalkotak.github.io/portfolio)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
