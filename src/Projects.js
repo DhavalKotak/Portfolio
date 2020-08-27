@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 import user from './assets/user.png'
 import reaction from './assets/reaction.png'
 import target from './assets/target.png'
-import bird from './assets/bird.png'
+import reddit from './assets/reddit.png'
 import styled from 'styled-components'
 
 const Styled = styled.div`
@@ -66,14 +66,14 @@ export const Projects = () => {
             </Card>
             <Card>
                 <Card.Body>
-                    <Card.Title><img src={bird} alt="img"/> Flappy Bird</Card.Title>
+                    <Card.Title><img src={reddit} alt="img"/> Reddit-MemeAPI-App</Card.Title>
                     <Card.Text>
-                        A Web Application on which you can play Flappy Bird game. Made by using Html and vanilla javascript
+                        A react web application to fetch memes from reddit.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <Button href="https://github.com/DhavalKotak/Flappy-Bird" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                    <Button href="https://dhavalkotak.github.io/Flappy-Bird/" variant="outline-danger">Live Demo</Button> 
+                    <Button href="https://github.com/DhavalKotak/reddit-memeapi-app" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                    <Button href="https://dhavalkotak.github.io/reddit-memeapi-app/" variant="outline-danger">Live Demo</Button> 
                 </Card.Footer>
             </Card>
         </CardDeck><br/>
