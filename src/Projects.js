@@ -6,6 +6,8 @@ import user from './assets/user.png'
 import reaction from './assets/reaction.png'
 import target from './assets/target.png'
 import reddit from './assets/reddit.png'
+import shower from './assets/shower.png'
+import bird from './assets/bird.png'
 import styled from 'styled-components'
 
 const Styled = styled.div`
@@ -40,28 +42,28 @@ export const Projects = () => {
                 </Card>
                 <Card>
                     <Card.Body>
-                        <Card.Title><img src={reaction} alt="img"/> Reaction Test</Card.Title>
+                        <Card.Title><img src={shower} alt="img"/> Shower</Card.Title>
                         <Card.Text>
-                            A web application to measure your reaction time. Made by using JavaScript
+                        Full Stack web application for streaming songs
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button href="https://github.com/DhavalKotak/Reaction-Test" variant="outline-primary">{'</>'}Source</Button>&nbsp; 
-                        <Button href="https://dhavalkotak.github.io/Reaction-Test" variant="outline-danger">Live Demo</Button> 
+                        <Button href="https://github.com/DhavalKotak/shower-frontend" variant="outline-primary">{'</>'}Source</Button>&nbsp; 
+                        <Button href="https://dhavalkotak.github.io/shower-frontend" variant="outline-danger">Live Demo</Button> 
                     </Card.Footer>
                 </Card>
             </CardDeck><br/>
             <CardDeck>
             <Card>
                 <Card.Body>
-                    <Card.Title><img src={target} alt="img"/> Aim Trainer</Card.Title>
+                    <Card.Title><img src={reaction} alt="img"/> Reaction Test</Card.Title>
                     <Card.Text>
-                        A simple single player game to practice your aim using by shooting random tagets appearing on the screen. Made with Javascript
+                        A web application to measure your reaction time. Made by using JavaScript
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <Button href="https://github.com/DhavalKotak/Aim-Trainer" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                    <Button href="https://dhavalkotak.github.io/Aim-Trainer/" variant="outline-danger">Live Demo</Button> 
+                    <Button href="https://github.com/DhavalKotak/Reaction-Test" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                    <Button href="https://dhavalkotak.github.io/Reaction-Test/" variant="outline-danger">Live Demo</Button> 
                 </Card.Footer>
             </Card>
             <Card>
@@ -74,6 +76,32 @@ export const Projects = () => {
                 <Card.Footer>
                     <Button href="https://github.com/DhavalKotak/reddit-memeapi-app" variant="outline-primary">{'</>'}Source</Button>&nbsp;
                     <Button href="https://dhavalkotak.github.io/reddit-memeapi-app/" variant="outline-danger">Live Demo</Button> 
+                </Card.Footer>
+            </Card>
+        </CardDeck><br/>
+        <CardDeck>
+            <Card>
+                <Card.Body>
+                    <Card.Title><img src={target} alt="img"/> Aim Trainer</Card.Title>
+                    <Card.Text>
+                        A simple game to practice your aim using by shooting targets 
+                    </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <Button href="https://github.com/DhavalKotak/Aim-Trainer" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                    <Button href="https://dhavalkotak.github.io/Aim-Trainer/" variant="outline-danger">Live Demo</Button> 
+                </Card.Footer>
+            </Card>
+            <Card>
+                <Card.Body>
+                    <Card.Title><img src={bird} alt="img"/> Flappy Bird</Card.Title>
+                    <Card.Text>
+                        The good old flappy bird game made in JavaScript.
+                    </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <Button href="https://github.com/DhavalKotak/flappy-bird" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                    <Button href="https://dhavalkotak.github.io/Flappy-Bird/" variant="outline-danger">Live Demo</Button> 
                 </Card.Footer>
             </Card>
         </CardDeck><br/>
