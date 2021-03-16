@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Header } from './Header';
-import { Projects } from './Projects';
-import { Layout } from './components/Layout';
-import { NavigationBar } from './components/nav';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Header } from './components/Header'
+import { Projects } from './components/Projects'
+import { Layout } from './components/Layout'
+import { NavigationBar } from './components/nav'
 import { Footer } from './components/Footer'
 class App extends Component {
   render() {
@@ -20,8 +20,8 @@ class App extends Component {
         </Router>
         <Footer />
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default App;
+export default App
